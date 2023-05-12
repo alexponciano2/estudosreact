@@ -1,24 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Planets from './components/planets'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Vou DOMINAR essa parada TODAAAAA!
-          <p> Hello World!</p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ...Com React
-        </a>
-      </header>
+    <div>
+        <Planets/>
     </div>
   );
 }
