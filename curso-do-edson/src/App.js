@@ -15,6 +15,21 @@ function App() {
         <section className="cards">
           {videos.map((video) => <Card id={video.id} key={video.id} />)}
         </section>
+
+        <h2>Como fazer e como usar</h2>
+        <section className="cards">
+          {videos.map((video) => <Card id={video.id} key={video.id} />)}
+        </section>
+
+        <h2>Geografia e Astronomia</h2>
+        <section className="cards">
+          {videos.map((video) => <Card id={video.id} key={video.id} />)}
+        </section>
+
+        <h2>Climatologia, Meteorologia e Vegetação</h2>
+        <section className="cards">
+          {videos.map((video) => <Card id={video.id} key={video.id} />)}
+        </section>
       </Container>
       <Footer />
     </>
